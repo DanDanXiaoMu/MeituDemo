@@ -19,11 +19,6 @@
 {
     [super viewDidLoad];
     
-    ZYQAssetViewController* pick = [[ZYQAssetViewController alloc]init];
-    pick.delegate = self
-    ImageAddPreView* preview = [[ImageAddPreView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 135, self.view.frame.size.width, 135)];
-    
-    [self.view addSubview:preview];
 //    ZYQAssetViewController * picker = [[ZYQAssetViewController alloc]init];
     
 //    _picker.maximumNumberOfSelection = 5;
