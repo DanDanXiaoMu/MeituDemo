@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhumingfu;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M6YZ92V3MY;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 35876CED92AC6199A2F902D1 /* Pods-MeituDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6YZ92V3MY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeituDemo/MeituDemo-Prefix.pch";
 				INFOPLIST_FILE = "MeituDemo/MeituDemo-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = BC2C152BFE666472216314CD /* Pods-MeituDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6YZ92V3MY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeituDemo/MeituDemo-Prefix.pch";
 				INFOPLIST_FILE = "MeituDemo/MeituDemo-Info.plist";
