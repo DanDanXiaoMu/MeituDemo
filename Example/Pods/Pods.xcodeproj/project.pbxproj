@@ -1,0 +1,1380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01242A159B8F00BA172A6B5D148856B7 /* UIColor+Help.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD2D6CA59E4AB1A1CA68AE16D9DC4E3 /* UIColor+Help.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0211179A356D6B2495873F6CEA2B4711 /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567F3069BCBF3CC9B816C89914297B9B /* ZYQAssetPickerController.m */; };
+		096C01D69753BC36DD1E0ED9A455B2D4 /* LoadingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 406F9DFB29B852045777C0719EFFBB82 /* LoadingViewManager.m */; };
+		0B04ECA05647DA1A6AC37894B6A05EED /* ImageEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6504A759FCF7CB0FD45143920F2F521 /* ImageEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BBCBBB8332615B2BCB25119B3280F65 /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B263CE81A638DBCE339FD98D11772903 /* GLAppDelegate.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		14B88789D5CC0B3DB9E685EDEB8B7273 /* MeiTuDemo-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 230300F3F43CEB0BF954FECB74F62FBB /* MeiTuDemo-Prefix.pch */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A41253621C3A86FE9D57BC67ADF7291 /* QuartzCore.framework */; };
+		1DBB8EA6FF617010F247A04D92981028 /* ImageAddPreView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4328F07BD7AF802AA8F21CCEA872FBEE /* ImageAddPreView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		250DD3E5781E47FA72BFEA1E1534D518 /* MeituDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9399927630A746DE40D6786BCC9E6DA5 /* MeituDemo.bundle */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		32C2249797E65CFD3CF3D5629CEE22BD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66178D8915D31605302B24D3DE6F80A /* AssetsLibrary.framework */; };
+		336AE1FBEBD04F22B49B3FD1FD1736D6 /* Pods-MeituDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB3617C40081B6DB2F2C3421CFA55E8 /* Pods-MeituDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366B26CEC8EEE714E431FCF6965DD047 /* GLMeituSpliceContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = B145837D3B777EA85F5ED7D253ED622C /* GLMeituSpliceContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3932EA695FEF8867267366EE69867F9E /* SUIModalActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 835F31F91BE80F819A2FBE26F843FFEF /* SUIModalActionSheet.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		430FB0BFB5EFB3E14ED88BB4FCE444B3 /* ZYQAssetPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 025F3F2CD4AB85F9DEE0B131C46A2D8F /* ZYQAssetPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B7FFEF6358DCBBA75663C2744B8811 /* AssetsPickerLocked@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E1CDAF12FFE020641AD6D03896F92676 /* AssetsPickerLocked@2x.png */; };
+		50F8CE22EC44DB322A42AAC5313B12CF /* MeituDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC8719D5FC0577666BA9DB9D1832C57 /* MeituDemo-dummy.m */; };
+		5548EC9C919A2129CCC88F8F60587D2D /* Pods-MeituDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6DE578D0A2B2CB44ECCC494BE89B61 /* Pods-MeituDemo_Tests-dummy.m */; };
+		56E51BCE9E293D579CC535DA3E2B8BBD /* GLStoryboardSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC664A95E0CC99D4CF47F34777ED817F /* GLStoryboardSelectView.m */; };
+		6293451A0BF427A5DA9A640D2296391A /* SharedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347C75F6FB897725628E488A054662EC /* SharedImageViewController.m */; };
+		63826EAA3332AF9676693336DCF62A25 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDF5E37CA550E76FF743B6203A2C1D6 /* MBProgressHUD.m */; };
+		652CFD325FFBC8182244E10D82B0C207 /* MeituEditStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FA6CFEAC66A10FDD42A1D188BB105A /* MeituEditStyleViewController.m */; };
+		68D6C3CC1411D52CE262B4A48578755E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5880E0754911B169B38E7FCF2908D301 /* Foundation.framework */; };
+		6A144E2E8E30C9D7608BDBC2B02A95D9 /* UIImage+Help.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD602BA2104AA7A20AB6F210B65FDF5 /* UIImage+Help.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAE99FBFCF95EB58FBE8DB87DBBB47 /* XCTest.framework */; };
+		6C870B30C7CABC54F04F95D95F88D728 /* GLMeituContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3235020938B3B24C80B1AF2B31DCDA9 /* GLMeituContentView.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		7614EFCC0AF655A03431BCE28483E073 /* GLStoryboardSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 248DEB68ED32F414D9FE97CC7492C9FB /* GLStoryboardSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B5EAB6114F2B36DB8738815175FBC9 /* MeituImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8EDBD12262D98ED0ECAEBFE9E1F30 /* MeituImageEditView.m */; };
+		85784D1D126D04B2603D1C8CD6375CDB /* GLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0076D430471F1D5ACE4FF4C27193B79F /* GLAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		89D04CA5941E10C5BFD2CDB87DEEA1BA /* ImageAddPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50611B083466C88E3D6A4FE55B0A8CCB /* ImageAddPreView.m */; };
+		8A364FCDBA721F8185BA5457DE6A50E5 /* MeituDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE2BDB0DAB74901576CFF6D9EE9DAD /* MeituDemo.bundle */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D47ADC3B7E8731C32B4A25596BCC53 /* ImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62A6E355BE3BDF59363BCBFFA765DBA /* ImageEditView.m */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		9F3EB1652A5D56450F682C0691B08764 /* UIImage+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34AAB26B95B48717B022C0D80AB9B5 /* UIImage+Help.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		A6BBC0D15661A2395EF712A762E89776 /* JBCroppableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA5454110705551A28FEEF508056CC2 /* JBCroppableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDD24ED883A4816EC7E0833FE9B26EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3268D584BE6CD1C1B0D5AE11A186FE /* CoreGraphics.framework */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5880E0754911B169B38E7FCF2908D301 /* Foundation.framework */; };
+		B2C194E9CB75D046C5575239C11BD4E3 /* UIButton+Help.h in Headers */ = {isa = PBXBuildFile; fileRef = 37518DBDB7F06BD4455A7BEBAB95EDC7 /* UIButton+Help.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B691E669BB83E1D405B6A9B917478C67 /* AssetsPickerChecked@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA154C1F0B29E91FC1B840C5117DFA /* AssetsPickerChecked@2x.png */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BCBFD0E9B36BBD085F3079E1140888F4 /* SUIModalActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 08059B6C9FAC4D65A55C6363F5CC227E /* SUIModalActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC8EFC3187508D0E7496CAADE76B742 /* LoadingViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B35AF9E3048A08B9C7BB54A9369FE09F /* LoadingViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF22CB87CE6C06D1177AC42741B3A5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5880E0754911B169B38E7FCF2908D301 /* Foundation.framework */; };
+		C02A50794061F568E81A592641AC2BF4 /* UIColor+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DE7D12A21E8D7C96495879F24DE4C /* UIColor+Help.m */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8EFFEE0C28E44563E23DC9A59F0BEBF /* GLMeituSpliceContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463A8FE3CA8313B51A2BDC272265088 /* GLMeituSpliceContentView.m */; };
+		CB52C635F33CE6DFCE41EF93E0CD7B83 /* MeituEditStyleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF458BFFCF67FB07834B5B7100001B8 /* MeituEditStyleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC5C18226560B4C93E26673ED6A9B1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5880E0754911B169B38E7FCF2908D301 /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DE5275295B39DDF38AC2636AB6BAB42F /* Pods-MeituDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6333CC48569DA0A17A750518141E78 /* Pods-MeituDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E02E3F982F3573A0F4A067BE35633825 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FD31D8B82C3C72AFAC37785213BA0350 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E07D9FE67F34FB866AD1A1085675CD43 /* GLMeituContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E23CEABD590C241576F95004064EBC /* GLMeituContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD3D64893EBAA25118BD5F7C66724B9 /* UIKit.framework */; };
+		E117B0B9697395DD11755AD8146DEE45 /* AssetsPickerVideo@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DDBE798FC6F8017CEEBED6EB5819CC0A /* AssetsPickerVideo@2x.png */; };
+		E520FF58F2509C6D61C95DF248F2B18D /* UIButton+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D133D9AD92C476798D399BB30A7CF /* UIButton+Help.m */; };
+		E6A1D37B14C41876A33AD51146529D2A /* AssetsPickerChecked~iOS6@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 59CFAE540F4C3C38C1ECC1582056D1FC /* AssetsPickerChecked~iOS6@2x.png */; };
+		E77E225606A1C12429BC7D3A4AB6003D /* MeituImageEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABECB96CF0BC70258E27543EB818156 /* MeituImageEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		EAA3851B91EA67627882345608E19EA8 /* MeituDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD1B532E9127C19929DE0AD4180875A /* MeituDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB69A40856B0215A57FF1BB10BE088D /* Pods-MeituDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD964C4B8DE5FF3F73E9961610DD9E8 /* Pods-MeituDemo_Example-dummy.m */; };
+		EE3B24E7FFCB849C826AE6DFD5A35BB7 /* SharedImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD2234119020DCEB5D0A6F34A8305EA /* SharedImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0A311150C59A453FBC500AD8E4111CB /* JBCroppableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F35A2B0D8A65A972E88C32BB488932E /* JBCroppableView.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13027B9EF875C726E16CFFF630E73942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		5C1E6DC1B5ADE63EE4C89ECDF9004708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE803CA1A705E4FAB159CA663C49DC47;
+			remoteInfo = MeituDemo;
+		};
+		6A1E9C731DB9D9461D6EE5F2475F7347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A8AAE1142D941B3A1183AF2185AE0C;
+			remoteInfo = "MeituDemo-MeituDemo";
+		};
+		F30243A66E84DBE056364D3A409802D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5813E5AEAACDE2FE358E30B0FD3956D;
+			remoteInfo = "Pods-MeituDemo_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0044C7C70B663CA401C267FBA309D702 /* MeituDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MeituDemo.debug.xcconfig; sourceTree = "<group>"; };
+		0076D430471F1D5ACE4FF4C27193B79F /* GLAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
+		025F3F2CD4AB85F9DEE0B131C46A2D8F /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		07E12D84FD36052755BA193CFA48CF92 /* Pods-MeituDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MeituDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		08059B6C9FAC4D65A55C6363F5CC227E /* SUIModalActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SUIModalActionSheet.h; sourceTree = "<group>"; };
+		0807EBA645C577872E6E62B655808874 /* MeituDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MeituDemo-prefix.pch"; sourceTree = "<group>"; };
+		0BB3617C40081B6DB2F2C3421CFA55E8 /* Pods-MeituDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeituDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0C9D133D9AD92C476798D399BB30A7CF /* UIButton+Help.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Help.m"; sourceTree = "<group>"; };
+		0DD3D64893EBAA25118BD5F7C66724B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		104A5A3ECA1134C779A8B1B4894B6A65 /* Pods-MeituDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeituDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1B1DE7D12A21E8D7C96495879F24DE4C /* UIColor+Help.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Help.m"; sourceTree = "<group>"; };
+		1CD2D6CA59E4AB1A1CA68AE16D9DC4E3 /* UIColor+Help.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Help.h"; sourceTree = "<group>"; };
+		230300F3F43CEB0BF954FECB74F62FBB /* MeiTuDemo-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MeiTuDemo-Prefix.pch"; path = "MeituDemo/Classes/MeiTuDemo-Prefix.pch"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		23D1456C69D3B788988AADC55C381DEF /* Pods_MeituDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeituDemo_Example.framework; path = "Pods-MeituDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		248DEB68ED32F414D9FE97CC7492C9FB /* GLStoryboardSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLStoryboardSelectView.h; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		347C75F6FB897725628E488A054662EC /* SharedImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SharedImageViewController.m; sourceTree = "<group>"; };
+		37518DBDB7F06BD4455A7BEBAB95EDC7 /* UIButton+Help.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Help.h"; sourceTree = "<group>"; };
+		3A41253621C3A86FE9D57BC67ADF7291 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3F35A2B0D8A65A972E88C32BB488932E /* JBCroppableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JBCroppableView.m; sourceTree = "<group>"; };
+		406F9DFB29B852045777C0719EFFBB82 /* LoadingViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoadingViewManager.m; sourceTree = "<group>"; };
+		4328F07BD7AF802AA8F21CCEA872FBEE /* ImageAddPreView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageAddPreView.h; sourceTree = "<group>"; };
+		4463A8FE3CA8313B51A2BDC272265088 /* GLMeituSpliceContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLMeituSpliceContentView.m; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		45FF6BFEE85C2887ED6F8C7DB2D9D54F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B46AD034AC42DA7EF6F741B5826CEF0 /* Pods-MeituDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeituDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD964C4B8DE5FF3F73E9961610DD9E8 /* Pods-MeituDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeituDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4D85777284F11744B1268A0E69D79DAB /* MeituDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MeituDemo-Info.plist"; sourceTree = "<group>"; };
+		4DEA154C1F0B29E91FC1B840C5117DFA /* AssetsPickerChecked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "AssetsPickerChecked@2x.png"; sourceTree = "<group>"; };
+		50611B083466C88E3D6A4FE55B0A8CCB /* ImageAddPreView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageAddPreView.m; sourceTree = "<group>"; };
+		51C8EDBD12262D98ED0ECAEBFE9E1F30 /* MeituImageEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeituImageEditView.m; sourceTree = "<group>"; };
+		5593A3107D41B4AFFB766975CCE71224 /* MeituDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MeituDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		567F3069BCBF3CC9B816C89914297B9B /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		5880E0754911B169B38E7FCF2908D301 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		59CFAE540F4C3C38C1ECC1582056D1FC /* AssetsPickerChecked~iOS6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "AssetsPickerChecked~iOS6@2x.png"; sourceTree = "<group>"; };
+		5AC8719D5FC0577666BA9DB9D1832C57 /* MeituDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MeituDemo-dummy.m"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3268D584BE6CD1C1B0D5AE11A186FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		62AAE99FBFCF95EB58FBE8DB87DBBB47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63D01D7595EC1EFF4AA4330C67F075D8 /* Pods-MeituDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeituDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		643AF5194822968F5EF169138AA870DF /* MeituDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MeituDemo.framework; path = MeituDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		69A8DE367B147EAB617301A7CF8F8907 /* Pods-MeituDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MeituDemo_Example.modulemap"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6BF458BFFCF67FB07834B5B7100001B8 /* MeituEditStyleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeituEditStyleViewController.h; sourceTree = "<group>"; };
+		6F6DE578D0A2B2CB44ECCC494BE89B61 /* Pods-MeituDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeituDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		76220B06F5A0D0A78C9A2FC900C6A562 /* Pods-MeituDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeituDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		7A98B60038A673FF8B211C2BE07A0BD1 /* Pods-MeituDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeituDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DDF5E37CA550E76FF743B6203A2C1D6 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7FA5454110705551A28FEEF508056CC2 /* JBCroppableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JBCroppableView.h; sourceTree = "<group>"; };
+		835F31F91BE80F819A2FBE26F843FFEF /* SUIModalActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SUIModalActionSheet.m; sourceTree = "<group>"; };
+		838784E0C8C0F304A786DB857FC3638E /* Pods-MeituDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeituDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8ABECB96CF0BC70258E27543EB818156 /* MeituImageEditView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeituImageEditView.h; sourceTree = "<group>"; };
+		8C34AAB26B95B48717B022C0D80AB9B5 /* UIImage+Help.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Help.m"; sourceTree = "<group>"; };
+		8CD1B532E9127C19929DE0AD4180875A /* MeituDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MeituDemo-umbrella.h"; sourceTree = "<group>"; };
+		8CEE2BDB0DAB74901576CFF6D9EE9DAD /* MeituDemo.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MeituDemo.bundle; path = MeituDemo/Assets/MeituDemo.bundle; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8E6333CC48569DA0A17A750518141E78 /* Pods-MeituDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeituDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		9399927630A746DE40D6786BCC9E6DA5 /* MeituDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MeituDemo.bundle; path = "MeituDemo-MeituDemo.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FA6CFEAC66A10FDD42A1D188BB105A /* MeituEditStyleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeituEditStyleViewController.m; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AEA551FF6973E8DC5387C231346B78BF /* MeituDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MeituDemo.modulemap; sourceTree = "<group>"; };
+		B145837D3B777EA85F5ED7D253ED622C /* GLMeituSpliceContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLMeituSpliceContentView.h; sourceTree = "<group>"; };
+		B1D61878C6CD017E58738AD70B3FC641 /* ResourceBundle-MeituDemo-MeituDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MeituDemo-MeituDemo-Info.plist"; sourceTree = "<group>"; };
+		B263CE81A638DBCE339FD98D11772903 /* GLAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
+		B3235020938B3B24C80B1AF2B31DCDA9 /* GLMeituContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLMeituContentView.m; sourceTree = "<group>"; };
+		B35AF9E3048A08B9C7BB54A9369FE09F /* LoadingViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoadingViewManager.h; sourceTree = "<group>"; };
+		B62A6E355BE3BDF59363BCBFFA765DBA /* ImageEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageEditView.m; sourceTree = "<group>"; };
+		B66178D8915D31605302B24D3DE6F80A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		B67741BD18249113D5629BDEE997CE73 /* Pods-MeituDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeituDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B8B1A265F8BA44958ABBD2EE1EC05699 /* Pods-MeituDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeituDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFD602BA2104AA7A20AB6F210B65FDF5 /* UIImage+Help.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Help.h"; sourceTree = "<group>"; };
+		C6504A759FCF7CB0FD45143920F2F521 /* ImageEditView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageEditView.h; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D507F9C83AC95C6F3BD78199B6CC511E /* Pods_MeituDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeituDemo_Tests.framework; path = "Pods-MeituDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DABA2519416E957452C29C4F267179E8 /* Pods-MeituDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeituDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DAD2234119020DCEB5D0A6F34A8305EA /* SharedImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SharedImageViewController.h; sourceTree = "<group>"; };
+		DBB6941A391067AC5F4ECEEB0214C753 /* Pods-MeituDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeituDemo_Tests-Info.plist"; sourceTree = "<group>"; };
+		DDBE798FC6F8017CEEBED6EB5819CC0A /* AssetsPickerVideo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "AssetsPickerVideo@2x.png"; sourceTree = "<group>"; };
+		E16489A88A44F5FBAA6E668EE896AD3D /* Pods-MeituDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeituDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1CDAF12FFE020641AD6D03896F92676 /* AssetsPickerLocked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "AssetsPickerLocked@2x.png"; sourceTree = "<group>"; };
+		E7E23CEABD590C241576F95004064EBC /* GLMeituContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLMeituContentView.h; sourceTree = "<group>"; };
+		F4A23542B6A0E6459D5E050BF878EE7C /* MeituDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MeituDemo.release.xcconfig; sourceTree = "<group>"; };
+		F5F4B0972489EAE839736E4957EB6D0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FC664A95E0CC99D4CF47F34777ED817F /* GLStoryboardSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLStoryboardSelectView.m; sourceTree = "<group>"; };
+		FD31D8B82C3C72AFAC37785213BA0350 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FE7A062B5345549C367E1ED5CAEACF61 /* Pods-MeituDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeituDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FFDB9675ED49457EC14FDE7591412B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C2249797E65CFD3CF3D5629CEE22BD /* AssetsLibrary.framework in Frameworks */,
+				AEDD24ED883A4816EC7E0833FE9B26EA /* CoreGraphics.framework in Frameworks */,
+				BF22CB87CE6C06D1177AC42741B3A5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2886C5BD24896E7BC0B3066BA776BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D6C3CC1411D52CE262B4A48578755E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846A1A1F7AD5BFD2DFB7F377FA4267A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC21362F463DE9F9E6E74ADE08CBF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5C18226560B4C93E26673ED6A9B1A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B465522E7A39B1944E196DBE90D089A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B66178D8915D31605302B24D3DE6F80A /* AssetsLibrary.framework */,
+				5D3268D584BE6CD1C1B0D5AE11A186FE /* CoreGraphics.framework */,
+				5880E0754911B169B38E7FCF2908D301 /* Foundation.framework */,
+				3A41253621C3A86FE9D57BC67ADF7291 /* QuartzCore.framework */,
+				0DD3D64893EBAA25118BD5F7C66724B9 /* UIKit.framework */,
+				62AAE99FBFCF95EB58FBE8DB87DBBB47 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0D7918F455FA04FCEA09CC35E3FC5A84 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				08059B6C9FAC4D65A55C6363F5CC227E /* SUIModalActionSheet.h */,
+				835F31F91BE80F819A2FBE26F843FFEF /* SUIModalActionSheet.m */,
+				37518DBDB7F06BD4455A7BEBAB95EDC7 /* UIButton+Help.h */,
+				0C9D133D9AD92C476798D399BB30A7CF /* UIButton+Help.m */,
+				1CD2D6CA59E4AB1A1CA68AE16D9DC4E3 /* UIColor+Help.h */,
+				1B1DE7D12A21E8D7C96495879F24DE4C /* UIColor+Help.m */,
+				BFD602BA2104AA7A20AB6F210B65FDF5 /* UIImage+Help.h */,
+				8C34AAB26B95B48717B022C0D80AB9B5 /* UIImage+Help.m */,
+				C6B0CACC67417395DAF3E8235ED7A182 /* LoadingViewManager */,
+				C7B4D1B1909F54345E8A142382244A83 /* ZYQAssetPickerController */,
+			);
+			name = Utility;
+			path = MeituDemo/Classes/Utility;
+			sourceTree = "<group>";
+		};
+		2B96D1E1C3B035F238622890509188AB /* Pods-MeituDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07E12D84FD36052755BA193CFA48CF92 /* Pods-MeituDemo_Tests.modulemap */,
+				7A98B60038A673FF8B211C2BE07A0BD1 /* Pods-MeituDemo_Tests-acknowledgements.markdown */,
+				E16489A88A44F5FBAA6E668EE896AD3D /* Pods-MeituDemo_Tests-acknowledgements.plist */,
+				6F6DE578D0A2B2CB44ECCC494BE89B61 /* Pods-MeituDemo_Tests-dummy.m */,
+				B67741BD18249113D5629BDEE997CE73 /* Pods-MeituDemo_Tests-frameworks.sh */,
+				DBB6941A391067AC5F4ECEEB0214C753 /* Pods-MeituDemo_Tests-Info.plist */,
+				0BB3617C40081B6DB2F2C3421CFA55E8 /* Pods-MeituDemo_Tests-umbrella.h */,
+				4B46AD034AC42DA7EF6F741B5826CEF0 /* Pods-MeituDemo_Tests.debug.xcconfig */,
+				104A5A3ECA1134C779A8B1B4894B6A65 /* Pods-MeituDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-MeituDemo_Tests";
+			path = "Target Support Files/Pods-MeituDemo_Tests";
+			sourceTree = "<group>";
+		};
+		333C1392642073379625C1531EE2D4EA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F5F4B0972489EAE839736E4957EB6D0C /* LICENSE */,
+				5593A3107D41B4AFFB766975CCE71224 /* MeituDemo.podspec */,
+				45FF6BFEE85C2887ED6F8C7DB2D9D54F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3EC8F14A5FD933B712114F2393119292 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA154C1F0B29E91FC1B840C5117DFA /* AssetsPickerChecked@2x.png */,
+				59CFAE540F4C3C38C1ECC1582056D1FC /* AssetsPickerChecked~iOS6@2x.png */,
+				E1CDAF12FFE020641AD6D03896F92676 /* AssetsPickerLocked@2x.png */,
+				DDBE798FC6F8017CEEBED6EB5819CC0A /* AssetsPickerVideo@2x.png */,
+			);
+			name = Images;
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		63148BB58F2CBD7B49D66D8704FCE879 /* Pods-MeituDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				69A8DE367B147EAB617301A7CF8F8907 /* Pods-MeituDemo_Example.modulemap */,
+				B8B1A265F8BA44958ABBD2EE1EC05699 /* Pods-MeituDemo_Example-acknowledgements.markdown */,
+				838784E0C8C0F304A786DB857FC3638E /* Pods-MeituDemo_Example-acknowledgements.plist */,
+				4BD964C4B8DE5FF3F73E9961610DD9E8 /* Pods-MeituDemo_Example-dummy.m */,
+				DABA2519416E957452C29C4F267179E8 /* Pods-MeituDemo_Example-frameworks.sh */,
+				76220B06F5A0D0A78C9A2FC900C6A562 /* Pods-MeituDemo_Example-Info.plist */,
+				8E6333CC48569DA0A17A750518141E78 /* Pods-MeituDemo_Example-umbrella.h */,
+				FE7A062B5345549C367E1ED5CAEACF61 /* Pods-MeituDemo_Example.debug.xcconfig */,
+				63D01D7595EC1EFF4AA4330C67F075D8 /* Pods-MeituDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-MeituDemo_Example";
+			path = "Target Support Files/Pods-MeituDemo_Example";
+			sourceTree = "<group>";
+		};
+		68675F23F58622C72870A73869C17A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				9399927630A746DE40D6786BCC9E6DA5 /* MeituDemo.bundle */,
+				643AF5194822968F5EF169138AA870DF /* MeituDemo.framework */,
+				23D1456C69D3B788988AADC55C381DEF /* Pods_MeituDemo_Example.framework */,
+				D507F9C83AC95C6F3BD78199B6CC511E /* Pods_MeituDemo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D182C9F066643387C0E070D0587CBAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CEE2BDB0DAB74901576CFF6D9EE9DAD /* MeituDemo.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7E9C944EBD6512A92A46B6C8447136D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEA551FF6973E8DC5387C231346B78BF /* MeituDemo.modulemap */,
+				5AC8719D5FC0577666BA9DB9D1832C57 /* MeituDemo-dummy.m */,
+				4D85777284F11744B1268A0E69D79DAB /* MeituDemo-Info.plist */,
+				0807EBA645C577872E6E62B655808874 /* MeituDemo-prefix.pch */,
+				8CD1B532E9127C19929DE0AD4180875A /* MeituDemo-umbrella.h */,
+				0044C7C70B663CA401C267FBA309D702 /* MeituDemo.debug.xcconfig */,
+				F4A23542B6A0E6459D5E050BF878EE7C /* MeituDemo.release.xcconfig */,
+				B1D61878C6CD017E58738AD70B3FC641 /* ResourceBundle-MeituDemo-MeituDemo-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MeituDemo";
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9D3E59E74EC4965B9A0808584121F89D /* MeituDemo */ = {
+			isa = PBXGroup;
+			children = (
+				230300F3F43CEB0BF954FECB74F62FBB /* MeiTuDemo-Prefix.pch */,
+				333C1392642073379625C1531EE2D4EA /* Pod */,
+				7D182C9F066643387C0E070D0587CBAD /* Resources */,
+				7E9C944EBD6512A92A46B6C8447136D1 /* Support Files */,
+				A37DFAE09E5D4D131556FB40ABBA6E6E /* UI */,
+				0D7918F455FA04FCEA09CC35E3FC5A84 /* Utility */,
+			);
+			name = MeituDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E8BF76D70CE61415E3DA2C4F05A99B3 /* JBCroppableView */ = {
+			isa = PBXGroup;
+			children = (
+				7FA5454110705551A28FEEF508056CC2 /* JBCroppableView.h */,
+				3F35A2B0D8A65A972E88C32BB488932E /* JBCroppableView.m */,
+			);
+			name = JBCroppableView;
+			path = JBCroppableView;
+			sourceTree = "<group>";
+		};
+		A37DFAE09E5D4D131556FB40ABBA6E6E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0076D430471F1D5ACE4FF4C27193B79F /* GLAppDelegate.h */,
+				B263CE81A638DBCE339FD98D11772903 /* GLAppDelegate.m */,
+				E7E23CEABD590C241576F95004064EBC /* GLMeituContentView.h */,
+				B3235020938B3B24C80B1AF2B31DCDA9 /* GLMeituContentView.m */,
+				B145837D3B777EA85F5ED7D253ED622C /* GLMeituSpliceContentView.h */,
+				4463A8FE3CA8313B51A2BDC272265088 /* GLMeituSpliceContentView.m */,
+				248DEB68ED32F414D9FE97CC7492C9FB /* GLStoryboardSelectView.h */,
+				FC664A95E0CC99D4CF47F34777ED817F /* GLStoryboardSelectView.m */,
+				6BF458BFFCF67FB07834B5B7100001B8 /* MeituEditStyleViewController.h */,
+				A4FA6CFEAC66A10FDD42A1D188BB105A /* MeituEditStyleViewController.m */,
+				8ABECB96CF0BC70258E27543EB818156 /* MeituImageEditView.h */,
+				51C8EDBD12262D98ED0ECAEBFE9E1F30 /* MeituImageEditView.m */,
+				DAD2234119020DCEB5D0A6F34A8305EA /* SharedImageViewController.h */,
+				347C75F6FB897725628E488A054662EC /* SharedImageViewController.m */,
+			);
+			name = UI;
+			path = MeituDemo/Classes/UI;
+			sourceTree = "<group>";
+		};
+		A4D4FA88CEC87287447D4AAF19BC6E93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63148BB58F2CBD7B49D66D8704FCE879 /* Pods-MeituDemo_Example */,
+				2B96D1E1C3B035F238622890509188AB /* Pods-MeituDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B5E0A566A19F450C9DF2DDE8D2A37AFF /* ZYQAssetPicker.Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				3EC8F14A5FD933B712114F2393119292 /* Images */,
+			);
+			name = ZYQAssetPicker.Bundle;
+			path = ZYQAssetPicker.Bundle;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C6B0CACC67417395DAF3E8235ED7A182 /* LoadingViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				B35AF9E3048A08B9C7BB54A9369FE09F /* LoadingViewManager.h */,
+				406F9DFB29B852045777C0719EFFBB82 /* LoadingViewManager.m */,
+				FD31D8B82C3C72AFAC37785213BA0350 /* MBProgressHUD.h */,
+				7DDF5E37CA550E76FF743B6203A2C1D6 /* MBProgressHUD.m */,
+			);
+			name = LoadingViewManager;
+			path = LoadingViewManager;
+			sourceTree = "<group>";
+		};
+		C7B4D1B1909F54345E8A142382244A83 /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				4328F07BD7AF802AA8F21CCEA872FBEE /* ImageAddPreView.h */,
+				50611B083466C88E3D6A4FE55B0A8CCB /* ImageAddPreView.m */,
+				C6504A759FCF7CB0FD45143920F2F521 /* ImageEditView.h */,
+				B62A6E355BE3BDF59363BCBFFA765DBA /* ImageEditView.m */,
+				025F3F2CD4AB85F9DEE0B131C46A2D8F /* ZYQAssetPickerController.h */,
+				567F3069BCBF3CC9B816C89914297B9B /* ZYQAssetPickerController.m */,
+				9E8BF76D70CE61415E3DA2C4F05A99B3 /* JBCroppableView */,
+				B5E0A566A19F450C9DF2DDE8D2A37AFF /* ZYQAssetPicker.Bundle */,
+			);
+			name = ZYQAssetPickerController;
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D4CDF5F0529F1D962F258EFF28F5907C /* Development Pods */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				68675F23F58622C72870A73869C17A57 /* Products */,
+				A4D4FA88CEC87287447D4AAF19BC6E93 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CDF5F0529F1D962F258EFF28F5907C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D3E59E74EC4965B9A0808584121F89D /* MeituDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B465522E7A39B1944E196DBE90D089A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CA6C54BC7F6B324B0AD4BB5C3ECEA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85784D1D126D04B2603D1C8CD6375CDB /* GLAppDelegate.h in Headers */,
+				E07D9FE67F34FB866AD1A1085675CD43 /* GLMeituContentView.h in Headers */,
+				366B26CEC8EEE714E431FCF6965DD047 /* GLMeituSpliceContentView.h in Headers */,
+				7614EFCC0AF655A03431BCE28483E073 /* GLStoryboardSelectView.h in Headers */,
+				1DBB8EA6FF617010F247A04D92981028 /* ImageAddPreView.h in Headers */,
+				0B04ECA05647DA1A6AC37894B6A05EED /* ImageEditView.h in Headers */,
+				A6BBC0D15661A2395EF712A762E89776 /* JBCroppableView.h in Headers */,
+				BEC8EFC3187508D0E7496CAADE76B742 /* LoadingViewManager.h in Headers */,
+				E02E3F982F3573A0F4A067BE35633825 /* MBProgressHUD.h in Headers */,
+				EAA3851B91EA67627882345608E19EA8 /* MeituDemo-umbrella.h in Headers */,
+				CB52C635F33CE6DFCE41EF93E0CD7B83 /* MeituEditStyleViewController.h in Headers */,
+				E77E225606A1C12429BC7D3A4AB6003D /* MeituImageEditView.h in Headers */,
+				EE3B24E7FFCB849C826AE6DFD5A35BB7 /* SharedImageViewController.h in Headers */,
+				BCBFD0E9B36BBD085F3079E1140888F4 /* SUIModalActionSheet.h in Headers */,
+				B2C194E9CB75D046C5575239C11BD4E3 /* UIButton+Help.h in Headers */,
+				01242A159B8F00BA172A6B5D148856B7 /* UIColor+Help.h in Headers */,
+				6A144E2E8E30C9D7608BDBC2B02A95D9 /* UIImage+Help.h in Headers */,
+				430FB0BFB5EFB3E14ED88BB4FCE444B3 /* ZYQAssetPickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4346C70ADA0DFF704C13C5B4C832342 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5275295B39DDF38AC2636AB6BAB42F /* Pods-MeituDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65272E1BA6E3045C60FB1170240F9BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336AE1FBEBD04F22B49B3FD1FD1736D6 /* Pods-MeituDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74A8AAE1142D941B3A1183AF2185AE0C /* MeituDemo-MeituDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E737CCB1105E97BDCD05339833C85B38 /* Build configuration list for PBXNativeTarget "MeituDemo-MeituDemo" */;
+			buildPhases = (
+				E754D6D311F79BBD7BA1A28680F8F0E1 /* Sources */,
+				B846A1A1F7AD5BFD2DFB7F377FA4267A /* Frameworks */,
+				16963A7CEBC0850B5D470D9739388100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeituDemo-MeituDemo";
+			productName = "MeituDemo-MeituDemo";
+			productReference = 9399927630A746DE40D6786BCC9E6DA5 /* MeituDemo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE803CA1A705E4FAB159CA663C49DC47 /* MeituDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EA52A7B67686EE7578532B4E902707 /* Build configuration list for PBXNativeTarget "MeituDemo" */;
+			buildPhases = (
+				95CA6C54BC7F6B324B0AD4BB5C3ECEA5 /* Headers */,
+				4CDA6018784BCCE0CD22E2212F0BAD2C /* Sources */,
+				76FFDB9675ED49457EC14FDE7591412B /* Frameworks */,
+				513234642BE76D49DD8A42CA17B2C0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0DE056A8EFC30B89BBE96F7527709F9 /* PBXTargetDependency */,
+			);
+			name = MeituDemo;
+			productName = MeituDemo;
+			productReference = 643AF5194822968F5EF169138AA870DF /* MeituDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5813E5AEAACDE2FE358E30B0FD3956D /* Pods-MeituDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8C3CC9964A51AADB06611D13F3BA6D /* Build configuration list for PBXNativeTarget "Pods-MeituDemo_Example" */;
+			buildPhases = (
+				C4346C70ADA0DFF704C13C5B4C832342 /* Headers */,
+				89462140FB7B02E94EE82631256E21C2 /* Sources */,
+				EDC21362F463DE9F9E6E74ADE08CBF0A /* Frameworks */,
+				DBF1164B5CD055886EBA24D7E825857D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDDCFBB82EF9638B60065AA0A0A78B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-MeituDemo_Example";
+			productName = "Pods-MeituDemo_Example";
+			productReference = 23D1456C69D3B788988AADC55C381DEF /* Pods_MeituDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFB30DAC182E22C38F00D7D0B4F68EA1 /* Pods-MeituDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB24001292A47671A081D636DF099FF /* Build configuration list for PBXNativeTarget "Pods-MeituDemo_Tests" */;
+			buildPhases = (
+				D65272E1BA6E3045C60FB1170240F9BB /* Headers */,
+				E7BC499494431AF8A0C7ED06236B550C /* Sources */,
+				A2886C5BD24896E7BC0B3066BA776BC7 /* Frameworks */,
+				2ACE781E2A8DB8D5DC67BEB12E10EE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E937C5DEAFF10BF110C0032BF39FF060 /* PBXTargetDependency */,
+				9569EE9F6F0147C14E81CE1DF077224D /* PBXTargetDependency */,
+			);
+			name = "Pods-MeituDemo_Tests";
+			productName = "Pods-MeituDemo_Tests";
+			productReference = D507F9C83AC95C6F3BD78199B6CC511E /* Pods_MeituDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 68675F23F58622C72870A73869C17A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				BE803CA1A705E4FAB159CA663C49DC47 /* MeituDemo */,
+				74A8AAE1142D941B3A1183AF2185AE0C /* MeituDemo-MeituDemo */,
+				D5813E5AEAACDE2FE358E30B0FD3956D /* Pods-MeituDemo_Example */,
+				FFB30DAC182E22C38F00D7D0B4F68EA1 /* Pods-MeituDemo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16963A7CEBC0850B5D470D9739388100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A364FCDBA721F8185BA5457DE6A50E5 /* MeituDemo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACE781E2A8DB8D5DC67BEB12E10EE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513234642BE76D49DD8A42CA17B2C0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250DD3E5781E47FA72BFEA1E1534D518 /* MeituDemo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF1164B5CD055886EBA24D7E825857D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDA6018784BCCE0CD22E2212F0BAD2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B691E669BB83E1D405B6A9B917478C67 /* AssetsPickerChecked@2x.png in Sources */,
+				E6A1D37B14C41876A33AD51146529D2A /* AssetsPickerChecked~iOS6@2x.png in Sources */,
+				47B7FFEF6358DCBBA75663C2744B8811 /* AssetsPickerLocked@2x.png in Sources */,
+				E117B0B9697395DD11755AD8146DEE45 /* AssetsPickerVideo@2x.png in Sources */,
+				0BBCBBB8332615B2BCB25119B3280F65 /* GLAppDelegate.m in Sources */,
+				6C870B30C7CABC54F04F95D95F88D728 /* GLMeituContentView.m in Sources */,
+				C8EFFEE0C28E44563E23DC9A59F0BEBF /* GLMeituSpliceContentView.m in Sources */,
+				56E51BCE9E293D579CC535DA3E2B8BBD /* GLStoryboardSelectView.m in Sources */,
+				89D04CA5941E10C5BFD2CDB87DEEA1BA /* ImageAddPreView.m in Sources */,
+				96D47ADC3B7E8731C32B4A25596BCC53 /* ImageEditView.m in Sources */,
+				F0A311150C59A453FBC500AD8E4111CB /* JBCroppableView.m in Sources */,
+				096C01D69753BC36DD1E0ED9A455B2D4 /* LoadingViewManager.m in Sources */,
+				63826EAA3332AF9676693336DCF62A25 /* MBProgressHUD.m in Sources */,
+				50F8CE22EC44DB322A42AAC5313B12CF /* MeituDemo-dummy.m in Sources */,
+				14B88789D5CC0B3DB9E685EDEB8B7273 /* MeiTuDemo-Prefix.pch in Sources */,
+				652CFD325FFBC8182244E10D82B0C207 /* MeituEditStyleViewController.m in Sources */,
+				82B5EAB6114F2B36DB8738815175FBC9 /* MeituImageEditView.m in Sources */,
+				6293451A0BF427A5DA9A640D2296391A /* SharedImageViewController.m in Sources */,
+				3932EA695FEF8867267366EE69867F9E /* SUIModalActionSheet.m in Sources */,
+				E520FF58F2509C6D61C95DF248F2B18D /* UIButton+Help.m in Sources */,
+				C02A50794061F568E81A592641AC2BF4 /* UIColor+Help.m in Sources */,
+				9F3EB1652A5D56450F682C0691B08764 /* UIImage+Help.m in Sources */,
+				0211179A356D6B2495873F6CEA2B4711 /* ZYQAssetPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89462140FB7B02E94EE82631256E21C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB69A40856B0215A57FF1BB10BE088D /* Pods-MeituDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E754D6D311F79BBD7BA1A28680F8F0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BC499494431AF8A0C7ED06236B550C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5548EC9C919A2129CCC88F8F60587D2D /* Pods-MeituDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EDDCFBB82EF9638B60065AA0A0A78B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MeituDemo;
+			target = BE803CA1A705E4FAB159CA663C49DC47 /* MeituDemo */;
+			targetProxy = 5C1E6DC1B5ADE63EE4C89ECDF9004708 /* PBXContainerItemProxy */;
+		};
+		9569EE9F6F0147C14E81CE1DF077224D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MeituDemo_Example";
+			target = D5813E5AEAACDE2FE358E30B0FD3956D /* Pods-MeituDemo_Example */;
+			targetProxy = F30243A66E84DBE056364D3A409802D7 /* PBXContainerItemProxy */;
+		};
+		A0DE056A8EFC30B89BBE96F7527709F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MeituDemo-MeituDemo";
+			target = 74A8AAE1142D941B3A1183AF2185AE0C /* MeituDemo-MeituDemo */;
+			targetProxy = 6A1E9C731DB9D9461D6EE5F2475F7347 /* PBXContainerItemProxy */;
+		};
+		E937C5DEAFF10BF110C0032BF39FF060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 13027B9EF875C726E16CFFF630E73942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19E2BCA42129F221988FFF1F219FAD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0044C7C70B663CA401C267FBA309D702 /* MeituDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MeituDemo";
+				IBSC_MODULE = MeituDemo;
+				INFOPLIST_FILE = "Target Support Files/MeituDemo/ResourceBundle-MeituDemo-MeituDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MeituDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		284E52AA04C018614291CA55B2A4974C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104A5A3ECA1134C779A8B1B4894B6A65 /* Pods-MeituDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MeituDemo_Tests/Pods-MeituDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeituDemo_Tests/Pods-MeituDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29FF33D7E13300EC4AA43F054ABC5325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A23542B6A0E6459D5E050BF878EE7C /* MeituDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MeituDemo";
+				IBSC_MODULE = MeituDemo;
+				INFOPLIST_FILE = "Target Support Files/MeituDemo/ResourceBundle-MeituDemo-MeituDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MeituDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4148296636DFD776985DD833CF8C0B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A23542B6A0E6459D5E050BF878EE7C /* MeituDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MeituDemo/MeituDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MeituDemo/MeituDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MeituDemo/MeituDemo.modulemap";
+				PRODUCT_MODULE_NAME = MeituDemo;
+				PRODUCT_NAME = MeituDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6728F5959B57156B92F9B03B4CA18973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0044C7C70B663CA401C267FBA309D702 /* MeituDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MeituDemo/MeituDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MeituDemo/MeituDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MeituDemo/MeituDemo.modulemap";
+				PRODUCT_MODULE_NAME = MeituDemo;
+				PRODUCT_NAME = MeituDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C69B6093BF5DD4106FEDD2EF57DE332C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7A062B5345549C367E1ED5CAEACF61 /* Pods-MeituDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MeituDemo_Example/Pods-MeituDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeituDemo_Example/Pods-MeituDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7164D5359A9E68FB7C8E771B8ED2230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D01D7595EC1EFF4AA4330C67F075D8 /* Pods-MeituDemo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MeituDemo_Example/Pods-MeituDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeituDemo_Example/Pods-MeituDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D311D0A401E8981C444EAF0A1B4D43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B46AD034AC42DA7EF6F741B5826CEF0 /* Pods-MeituDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MeituDemo_Tests/Pods-MeituDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeituDemo_Tests/Pods-MeituDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB24001292A47671A081D636DF099FF /* Build configuration list for PBXNativeTarget "Pods-MeituDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D311D0A401E8981C444EAF0A1B4D43FA /* Debug */,
+				284E52AA04C018614291CA55B2A4974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8C3CC9964A51AADB06611D13F3BA6D /* Build configuration list for PBXNativeTarget "Pods-MeituDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69B6093BF5DD4106FEDD2EF57DE332C /* Debug */,
+				C7164D5359A9E68FB7C8E771B8ED2230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EA52A7B67686EE7578532B4E902707 /* Build configuration list for PBXNativeTarget "MeituDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728F5959B57156B92F9B03B4CA18973 /* Debug */,
+				4148296636DFD776985DD833CF8C0B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E737CCB1105E97BDCD05339833C85B38 /* Build configuration list for PBXNativeTarget "MeituDemo-MeituDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E2BCA42129F221988FFF1F219FAD5F /* Debug */,
+				29FF33D7E13300EC4AA43F054ABC5325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

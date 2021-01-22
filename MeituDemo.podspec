@@ -21,22 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhumingfu/MeituDemo'
+  s.homepage         = 'https://github.com/DanDanXiaoMu/MeituDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhumingfu' => '770228653@qq.com' }
-  s.source           = { :git => 'https://github.com/zhumingfu/MeituDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DanDanXiaoMu/MeituDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MeituDemo/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MeituDemo' => ['MeituDemo/Assets/*.png']
-  # }
-
+   s.resource_bundles = {
+     'MeituDemo' => ['MeituDemo/Assets/MeiTuDemo.bundle']
+   }
+#   s.prefix_header_file = false
+   s.prefix_header_file = 'MeituDemo/Classes/MeiTuDemo-Prefix.pch'
+#   s.prefix_header_file = 'MeituDemo/MeiTuDemo-Prefix.pch'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'AssetsLibrary', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

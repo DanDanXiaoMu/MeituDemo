@@ -7,7 +7,8 @@
 //
 
 #import "YJViewController.h"
-
+#import <ZYQAssetPickerController.h>
+#import <ImageAddPreView.h>
 @interface YJViewController ()
 
 @end
@@ -17,7 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    ZYQAssetViewController* pick = [[ZYQAssetViewController alloc]init];
+    pick.delegate = self
+    ImageAddPreView* preview = [[ImageAddPreView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 135, self.view.frame.size.width, 135)];
+    
+    [self.view addSubview:preview];
+//    ZYQAssetViewController * picker = [[ZYQAssetViewController alloc]init];
+    
+//    _picker.maximumNumberOfSelection = 5;
+//    _picker.assetsFilter = [ALAssetsFilter allPhotos];
+//    _picker.showEmptyGroups=NO;
+//    _picker.delegate = self;
+
 }
 
 - (void)didReceiveMemoryWarning

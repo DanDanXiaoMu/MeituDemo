@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MeituDemo (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MeituDemo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MeituDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MeituDemo: 42749f373e49e54f21e07826b1482642f4788f00
+
+PODFILE CHECKSUM: f4b0dc5e04e018e01dab307e3f8463c1529d6e37
+
+COCOAPODS: 1.9.3

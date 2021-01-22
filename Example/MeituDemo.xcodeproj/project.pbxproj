@@ -62,10 +62,10 @@
 		80A7168BED3B62248C06FB29 /* Pods_MeituDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeituDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		893652B42592279D3967986B /* Pods-MeituDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeituDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MeituDemo_Tests/Pods-MeituDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B1CBAFB13740F16B4989131D /* MeituDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MeituDemo.podspec; path = ../MeituDemo.podspec; sourceTree = "<group>"; };
+		B1CBAFB13740F16B4989131D /* MeituDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MeituDemo.podspec; path = ../MeituDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC2C152BFE666472216314CD /* Pods-MeituDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeituDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-MeituDemo_Example/Pods-MeituDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D8C527C32B499D92180374B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DAED9152165C9E4F9D3F1794 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D8C527C32B499D92180374B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DAED9152165C9E4F9D3F1794 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E00CE8C86E4E5F0B63F10D29 /* Pods_MeituDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeituDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				893652B42592279D3967986B /* Pods-MeituDemo_Tests.debug.xcconfig */,
 				380A78E4FA46808F8261F2A5 /* Pods-MeituDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

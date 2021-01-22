@@ -1,0 +1,32 @@
+{
+  "name": "MeituDemo",
+  "version": "0.1.0",
+  "summary": "A short description of MeituDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhumingfu/MeituDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhumingfu": "770228653@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhumingfu/MeituDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MeituDemo/Classes/**/*",
+  "resource_bundles": {
+    "MeituDemo": [
+      "MeituDemo/Assets/MeiTuDemo.bundle"
+    ]
+  },
+  "prefix_header_file": "MeituDemo/Classes/MeiTuDemo-Prefix.pch",
+  "frameworks": [
+    "AssetsLibrary",
+    "CoreGraphics"
+  ]
+}
